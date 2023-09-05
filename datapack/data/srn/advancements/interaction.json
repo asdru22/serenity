@@ -8,7 +8,7 @@
               "condition": "minecraft:entity_properties",
               "entity": "this",
               "predicate": {
-                "nbt": "{Tags:[srn.interaction]}"
+                "nbt": "{Tags:[srn.dummyeraction]}"
               }
             }
           ]
@@ -22,7 +22,7 @@
               "condition": "minecraft:entity_properties",
               "entity": "this",
               "predicate": {
-                "nbt": "{Tags:[srn.interaction]}"
+                "nbt": "{Tags:[srn.dummyeraction]}"
               }
             }
           ]
