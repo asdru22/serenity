@@ -1,0 +1,1 @@
+execute if entity @s[tag=srn.entity] run function srn:entity/timers/tick

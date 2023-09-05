@@ -1,0 +1,1 @@
+execute if entity @s[type=wandering_trader,tag=tcc.trader_entity] run function srn:entity/trader_entity/second_clock
