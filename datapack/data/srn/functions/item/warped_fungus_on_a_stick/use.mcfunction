@@ -6,4 +6,6 @@ function #srn:item/warped_fungus_on_a_stick
 
 execute if entity @s[gamemode=!creative] if data storage srn:storage root.temp.item.tag.srn{consume:true} run function srn:item/warped_fungus_on_a_stick/consume
 
+execute if entity @s[gamemode=!creative] if data storage srn:storage root.temp.item.tag.srn.durability run function srn:item/warped_fungus_on_a_stick/damage
+
 scoreboard players reset @s srn.used_warped_fungus_on_a_stick
