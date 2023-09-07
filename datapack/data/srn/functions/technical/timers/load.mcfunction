@@ -3,6 +3,8 @@ scoreboard objectives add srn.dummy2 dummy
 
 scoreboard objectives add srn.old_xp dummy
 
+scoreboard objectives add srn.using_item dummy
+scoreboard objectives add srn.using_item_new dummy
 scoreboard objectives add srn.current_xp xp
 
 scoreboard objectives add srn.used_warped_fungus_on_a_stick used:warped_fungus_on_a_stick
