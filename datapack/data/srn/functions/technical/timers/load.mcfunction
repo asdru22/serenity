@@ -15,3 +15,5 @@ function srn:entity/natural_spawning/timer
 function srn:technical/timers/second
 
 execute unless score $mob_cap srn.dummy matches -2147483648..2147483647 run scoreboard players set $mob_cap srn.dummy 0
+
+scoreboard players set #100 srn.dummy 100

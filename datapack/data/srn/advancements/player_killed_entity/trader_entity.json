@@ -1,5 +1,4 @@
 {
-    "parent": "srn:technical/root",
     "criteria": {
       "kill_trader_entity": {
         "trigger": "minecraft:player_killed_entity",
