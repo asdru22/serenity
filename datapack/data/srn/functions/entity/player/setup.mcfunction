@@ -1,0 +1,1 @@
+execute store result score @s srn.id run scoreboard players add #ids srn.dummy 1
