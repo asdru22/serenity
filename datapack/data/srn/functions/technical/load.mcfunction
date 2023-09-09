@@ -8,6 +8,11 @@ scoreboard objectives add srn.old_xp dummy
 scoreboard objectives add srn.using_item dummy
 scoreboard objectives add srn.using_item_new dummy
 
+scoreboard objectives add srn.used_diamond_pickaxe used:diamond_pickaxe
+scoreboard objectives add srn.used_diamond_axe used:diamond_axe
+scoreboard objectives add srn.used_diamond_hoe used:diamond_hoe
+scoreboard objectives add srn.used_diamond_shovel used:diamond_shovel
+
 scoreboard objectives add srn.current_xp xp
 
 scoreboard objectives add srn.used_warped_fungus_on_a_stick used:warped_fungus_on_a_stick
