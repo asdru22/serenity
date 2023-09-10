@@ -5,3 +5,5 @@ execute if predicate srn:entity/holding/mending_item/any positioned ~ ~0.805 ~ r
 execute if score @s srn.using_item matches 1.. run function srn:item/usable/tick
 
 execute if predicate srn:entity/using_custom_tool run function srn:item/durability/use_tool/tick
+
+execute if score @s srn.leave_game matches 1.. run function srn:entity/player/preserve_scoreboards/init
