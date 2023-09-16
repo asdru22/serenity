@@ -24,7 +24,17 @@
               }
             ]
           }
-        ]
+        ],
+        "damage": {
+          "type": {
+            "tags": [
+              {
+                "id": "srn:ignores_custom_durability",
+                "expected": false
+              }
+            ]
+          }
+        }
       }
     }
   },
