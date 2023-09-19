@@ -17,6 +17,8 @@ scoreboard objectives add srn.current_xp xp
 
 scoreboard objectives add srn.used_warped_fungus_on_a_stick used:warped_fungus_on_a_stick
 
+scoreboard objectives add srn.used_item_frame used:item_frame
+
 scoreboard objectives add srn.leave_game custom:leave_game
 
 execute positioned 3000000 ~ 3066 run forceload add ~ ~

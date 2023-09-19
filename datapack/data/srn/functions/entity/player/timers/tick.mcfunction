@@ -7,3 +7,5 @@ execute if score @s srn.using_item matches 1.. run function srn:item/usable/tick
 execute if predicate srn:entity/using_custom_tool run function srn:item/durability/use_tool/tick
 
 execute if score @s srn.leave_game matches 1.. run function srn:entity/player/preserve_scoreboards/init
+
+execute if score @s srn.used_item_frame matches 1.. run function srn:entity/item_frame/init
