@@ -20,7 +20,6 @@
 		"#minecraft:candles",
 		"#minecraft:walls",
 		"#minecraft:flowers",
-		
 		"minecraft:wheat",
 		"minecraft:beetroots",
 		"minecraft:carrots",
@@ -28,7 +27,7 @@
 		"minecraft:melon_stem",
 		"minecraft:pumpkin_stem",
 		"minecraft:cocoa",
-		"minecraft:grass",
+		"minecraft:short_grass",
 		"minecraft:fern",
 		"minecraft:dead_bush",
 		"minecraft:brown_mushroom",
