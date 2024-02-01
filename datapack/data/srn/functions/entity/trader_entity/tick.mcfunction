@@ -2,7 +2,7 @@
 # Ticks a living entity with a wandering trader base
 ############################################################
 
-item replace entity @s weapon.mainhand with minecraft:leather_horse_armor{display:{color:0}}
+item replace entity @s weapon.mainhand with minecraft:leather_horse_armor{display:{color:16777215}}
 # Body Idle Model
 data modify entity @s[tag=!srn.trader_entity.attacking] HandItems[0].tag.CustomModelData set from entity @s ArmorItems[3].tag.srn.custom_model_data.idle
 # Body Moving Model
