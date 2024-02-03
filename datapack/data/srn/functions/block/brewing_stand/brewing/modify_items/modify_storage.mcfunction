@@ -1,7 +1,6 @@
 ############################################################
 # Modifies the item in storage
 ############################################################
-
 data modify storage srn:storage root.temp.ingredient set from block ~ ~ ~ Items[{Slot:3b}]
 # custom ingredients into mundane
 execute if data storage srn:storage root.temp.ingredient.tag.srn{brewing_ingredient:1b} if data storage srn:storage root.temp.item{id:"minecraft:potion",tag:{Potion:"minecraft:water"}} run data modify storage srn:storage root.temp.item.tag.Potion set value "minecraft:mundane"

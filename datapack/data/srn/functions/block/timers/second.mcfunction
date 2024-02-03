@@ -1,1 +1,1 @@
-execute if entity @s[tag=srn.brewing_stand] run function srn:block/brewing_stand/brewing/second_clock
+execute if entity @s[tag=srn.brewing_stand] if block ~ ~ ~ minecraft:brewing_stand{Items:[{tag:{srn:{}}}]} run function srn:block/brewing_stand/brewing/second_clock

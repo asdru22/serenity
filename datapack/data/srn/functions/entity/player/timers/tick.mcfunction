@@ -9,3 +9,6 @@ execute if predicate srn:entity/using_custom_tool run function srn:item/durabili
 execute if score @s srn.leave_game matches 1.. run function srn:entity/player/preserve_scoreboards/init
 
 execute if score @s srn.used_item_frame matches 1.. run function srn:entity/item_frame/init
+
+execute if entity @s[scores={srn.throw_lingering_potion=1..}] run function srn:item/throwable_potion/init
+execute if entity @s[scores={srn.throw_splash_potion=1..}] run function srn:item/throwable_potion/init
