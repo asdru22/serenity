@@ -35,3 +35,5 @@ execute store result storage srn:storage root.temp.f int 1 run scoreboard player
 
 function srn:technical/string_uuid/get_hexes with storage srn:storage root.temp
 function srn:technical/string_uuid/concat_uuid with storage srn:storage root.temp
+
+function srn:technical/string_uuid/get_name
