@@ -5,7 +5,8 @@
       "conditions": {
         "item": {
           "items": [
-            "minecraft:crossbow"
+            "minecraft:crossbow",
+            "shield"
           ],
           "nbt": "{srn:{using_timer:true}}"
         }
