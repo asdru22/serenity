@@ -1,3 +1,5 @@
+The perfect tool for making vanilla+ survival packs
+
 # Included Resourcepacks
 https://github.com/Ancientkingg/fancyPants  
 https://github.com/asdru22/CorePerspectiveModels  
