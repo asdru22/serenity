@@ -1,0 +1,33 @@
+{
+    "criteria": {
+      "name_no_nametag_entity": {
+        "trigger": "minecraft:player_interacted_with_entity",
+        "conditions": {
+          "item": {
+            "items": [
+              "minecraft:name_tag"
+            ],
+            "nbt": "{display:{}}"
+          },
+          "entity": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "team": "srn.no_nametag"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "rewards": {
+      "function": "srn:entity/name_tag"
+    },
+    "requirements": [
+      [
+        "name_no_nametag_entity"
+      ]
+    ]
+  }
+  
