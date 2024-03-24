@@ -1,1 +1,0 @@
-execute if entity @s[gamemode=!creative] run function srn:item/durability/damage_generic_amount/mainhand_1
