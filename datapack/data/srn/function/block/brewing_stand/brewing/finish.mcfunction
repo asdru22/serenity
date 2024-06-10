@@ -9,5 +9,5 @@ execute if data block ~ ~ ~ Items[{Slot:2b}] unless data block ~ ~ ~ Items[{Slot
 
 data modify block ~ ~ ~ BrewTime set value 0s
 scoreboard players reset @s srn.dummy2
-item modify block ~ ~ ~ container.3 srn:remove_one
+item modify block ~ ~ ~ container.3 srn:decrease_count/1
 playsound minecraft:block.brewing_stand.brew block @a[distance=..16]
