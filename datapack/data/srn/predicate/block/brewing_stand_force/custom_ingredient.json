@@ -5,7 +5,7 @@
       "blocks": [
         "minecraft:brewing_stand"
       ],
-      "nbt": "{Items:[{id:\"minecraft:potion\"},{Slot:3b,tag:{srn:{brewing_ingredient:1b}}}]}"
+      "nbt": "{Items:[{id:\"minecraft:potion\"},{Slot:3b,tag:{custom_data:{srn:{brewing_ingredient:1b}}}}]}"
     }
   }
 }

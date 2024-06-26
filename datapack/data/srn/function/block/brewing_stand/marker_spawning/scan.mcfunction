@@ -2,7 +2,7 @@
 # Starts scanning an area for brewing stands
 ############################################################
 
-advancement revoke @s only srn:technical/placed_block/brewing_stand
+advancement revoke @s only srn:placed_block/brewing_stand
 
 execute align xyz positioned ~0.5 ~-6.5 ~0.5 run function srn:block/brewing_stand/marker_spawning/layer
 execute align xyz positioned ~0.5 ~-5.5 ~0.5 run function srn:block/brewing_stand/marker_spawning/layer

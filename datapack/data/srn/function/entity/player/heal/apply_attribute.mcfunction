@@ -1,1 +1,1 @@
-$attribute @s minecraft:generic.max_health modifier add f87623f8-bedd-48e9-af01-f15e59176b7d "heal" -$(amount) add
+$attribute @s minecraft:generic.max_health modifier add srn:heal "heal" -$(amount) add

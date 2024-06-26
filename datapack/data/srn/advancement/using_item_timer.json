@@ -8,7 +8,9 @@
             "minecraft:crossbow",
             "shield"
           ],
-          "nbt": "{srn:{using_timer:true}}"
+          "components": {
+            "custom_data": "{srn:{using_timer:true}}"
+          }
         }
       }
     }

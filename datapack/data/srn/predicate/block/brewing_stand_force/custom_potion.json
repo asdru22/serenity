@@ -9,7 +9,7 @@
             "blocks": [
               "minecraft:brewing_stand"
             ],
-            "nbt": "{Items:[{tag:{srn:{potion:{can_extend:1b}}}},{Slot:3b,id:\"minecraft:redstone\"}]}"
+            "nbt": "{Items:[{tag:{custom_data:{srn:{potion:{can_extend:1b}}}}},{Slot:3b,id:\"minecraft:redstone\"}]}"
           }
         }
       },
@@ -20,7 +20,7 @@
             "blocks": [
               "minecraft:brewing_stand"
             ],
-            "nbt": "{Items:[{tag:{srn:{potion:{can_amplify:1b}}}},{Slot:3b,id:\"minecraft:glowstone_dust\"}]}"
+            "nbt": "{Items:[{tag:{custom_data:{srn:{potion:{can_amplify:1b}}}}},{Slot:3b,id:\"minecraft:glowstone_dust\"}]}"
           }
         }
       }

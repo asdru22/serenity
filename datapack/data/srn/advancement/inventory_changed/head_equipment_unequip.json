@@ -8,7 +8,9 @@
             "items": [
               "minecraft:warped_fungus_on_a_stick"
             ],
-            "nbt": "{srn:{head_equipment:true}}"
+            "components": {
+              "minecraft:custom_data": "{srn:{head_equipment:true}}"
+            }
           }
         ]
       }

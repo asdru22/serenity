@@ -8,7 +8,7 @@
           "blocks": [
             "minecraft:brewing_stand"
           ],
-          "nbt": "{Items:[{Slot:3b,id:\"minecraft:glistering_melon_slice\",tag:{srn:{brewing_ingredient:1b}}},{id:\"minecraft:potion\",tag:{srn:{}}}]}"
+          "nbt": "{Items:[{Slot:3b,id:\"minecraft:glistering_melon_slice\",tag:{custom_data:{srn:{brewing_ingredient:1b}}}},{id:\"minecraft:potion\",tag:{srn:{}}}]}"
         }
       }
     }
