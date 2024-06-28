@@ -1,21 +1,18 @@
 {
-  "criteria": {
-    "requirement": {
-      "trigger": "minecraft:using_item",
-      "conditions": {
-        "item": {
-          "items": [
-            "minecraft:crossbow",
-            "shield"
-          ],
-          "components": {
-            "custom_data": "{srn:{using_timer:true}}"
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:using_item",
+        "conditions": {
+          "item": {
+            "predicates": {
+              "minecraft:custom_data": "{srn:{usable:true}}"
+            }
           }
         }
       }
+    },
+    "rewards": {
+      "function": "srn:item/usable/init"
     }
-  },
-  "rewards": {
-    "function": "srn:item/usable/init"
   }
-}
+  

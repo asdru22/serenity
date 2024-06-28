@@ -8,8 +8,6 @@ scoreboard objectives add srn.old_xp dummy
 scoreboard objectives add srn.using_item dummy
 scoreboard objectives add srn.using_item_new dummy
 
-
-
 scoreboard objectives add srn.throw_lingering_potion used:lingering_potion
 scoreboard objectives add srn.throw_splash_potion used:splash_potion
 
