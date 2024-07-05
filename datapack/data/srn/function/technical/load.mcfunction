@@ -3,8 +3,6 @@ scoreboard objectives add srn.dummy2 dummy
 
 scoreboard objectives add srn.id dummy
 
-scoreboard objectives add srn.old_xp dummy
-
 scoreboard objectives add srn.using_item dummy
 scoreboard objectives add srn.using_item_new dummy
 
